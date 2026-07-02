@@ -45,3 +45,23 @@ Strength: Strong
 ✓ Contains number
 ✓ Contains special character
 ```
+
+## Example Output
+```
+=============================================
+      PASSWORD STRENGTH CHECKER
+=============================================
+Enter your password: hello123
+
+------ RESULT ------
+Score: 3/5
+Strength: Fair
+
+✓ Minimum 8 characters
+✗ Contains uppercase letter
+✓ Contains lowercase letter
+✓ Contains number
+✗ Contains special character
+
+Result saved to password_log.csv
+```
